@@ -1,21 +1,29 @@
 @import 'https://fonts.googleapis.com/css?family=Uncial+Antiqua';
 
 #loading{
-	z-index:999999;
-	display:block;
-	position:fixed;
-	top:0;
-	left:0;
-	width:100%;
-	height:100%;
-	background:url(img/sforest_parallax.jpg) 50% 50% no-repeat DarkGreen;
+	z-index: 999999;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: DarkGreen;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading-content {
+	width: 100%;
+	height: 100%;
+    text-align: center;
+	display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .note{
 	z-index:9999999;
-	position: fixed;
-	top: 50%;
-	left: 50%;
 	color:  mediumspringgreen;
 }
 
